@@ -27,3 +27,9 @@ p,h1 {
 background-color: lightgray;
 
 }
+
+/* Não é um elemento em block*/
+.teste01 { 
+
+    background-color: blue;
+}
