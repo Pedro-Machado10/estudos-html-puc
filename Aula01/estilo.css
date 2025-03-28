@@ -1,0 +1,29 @@
+/* Associação pelo nome do ELEMENTO */ 
+
+h1 { 
+
+color: red;
+
+}
+
+/*aSSOCIAÇÃO PLEO id do ELEMENTO */ 
+
+#tit_1 { 
+
+font-size: 40px; 
+
+} 
+
+/*Associação pela classe do elemento*/ 
+
+.noticias { 
+
+font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+p,h1 { 
+
+background-color: lightgray;
+
+}
