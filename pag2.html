@@ -3,57 +3,143 @@
 
 <head>
 
-    <title> Segunda página  </title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/Aula01/estilo.css">
+  <title> Segunda página </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/Aula01/estilo.css">
 
-    <meta name="Author" content="Pedro"> <!-- coloca o autor do código -->
-    <meta http-equiv="refresh" content=";url=https://atletico.com.br/"> <!-- faz ir pra outro site depois de 5 segundos -->
-    <style> 
-            body { 
-            background-color:white;
-            }
-
-    </style>
+  <meta name="Author" content="Pedro"> <!-- coloca o autor do código -->
+  <meta http-equiv="refresh" content=";url=https://atletico.com.br/">
+  <!-- faz ir pra outro site depois de 5 segundos -->
+  <style>
+    body {
+      background-color: white;
+    }
+  </style>
 
 
 </head>
 
 
 <body>
+  <div id="cabecalho">
 
+    <ul>
+      <li>Sobre a Empresa</li>
+      <li>Blog</li>
+      <li>Produtos</li>
+      <li>Serviços</li>
+      <li>Contatos</li>
+    </ul>
+  </div>
+  <div id="conteudo">
     <h1 id="tit_1" class="noticias"> Minha primeira página em html </h1>
 
     <p>Lorem ipsum dolor sit amet consectetur.</p>
-    <p> Lorem ipsum dolor sit, amet consectetur  adipisicing elit. <br> Repudiandae debitis praesentium, <em>officiis soluta dicta quos tenetur </em> quidem beatae obcaecati amet. A ducimus, omnis repellat ut quam laborum labore nobis! Itaque.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Repudiandae debitis praesentium, <em>officiis
+        soluta dicta quos tenetur </em> quidem beatae obcaecati amet. A ducimus, omnis repellat ut quam laborum labore
+      nobis! Itaque.</p>
     <p> Os itens são os <span class="teste01"> seguintes: </span>
-        <ul>
-            <li><a href="/Aula01/index.html">Bananas </a></li>
-            <li><a href="https://atletico.com.br/" target="_blank">Maçã</a></li>  <!-- tag blank faz criar uma nova aba, quando clicar no link -->
-            <li>Laranja</li>
-        </ul>
-        <img  width="200" height="200" src="/Aula01/imgs/im1.jpg" alt="imagem1"> Este é um teste 
-        <ol>
-            <li>Bananas </li>
-            <li>Maçã</li>
-            <li>Laranja</li>
-        </ol>
+    <ul>
+      <li><a href="/Aula01/index.html">Bananas </a></li>
+      <li><a href="https://atletico.com.br/" target="_blank">Maçã</a></li>
+      <!-- tag blank faz criar uma nova aba, quando clicar no link -->
+      <li>Laranja</li>
+    </ul>
+    <img width="200" height="200" src="/Aula01/imgs/im1.jpg" alt="imagem1"> Este é um teste
+    <ol>
+      <li>Bananas </li>
+      <li>Maçã</li>
+      <li>Laranja</li>
+    </ol>
 
     </p>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
 
-    <p>Lorem ipsum dolor sit amet consectetur <strong> adipisicing elit. Porro, quos est beatae </strong> fugiat consectetur laudantium hic doloremque. Blanditiis aliquam voluptatum quas a sapiente quae nihil quo sequi quasi porro! Itaque illum veniam esse vel sequi fugiat? Soluta aperiam nemo asperiores vitae rem? Ab neque, doloremque cumque minima quaerat ipsum possimus reiciendis assumenda asperiores dolorum quas, ut, labore qui tempore totam blanditiis numquam voluptatem nesciunt ipsam consectetur ipsa aspernatur mollitia velit voluptate. Nulla voluptatum mollitia, quasi rerum animi saepe veritatis amet. Cupiditate deserunt fugiat perferendis cum minima repellendus sapiente, molestiae, neque dolorem, et id vero ducimus dolor dicta. Delectus excepturi qui earum eos eligendi maxime ipsum nostrum doloremque minus beatae commodi laboriosam perferendis voluptatem recusandae nulla quidem illum, nemo ad necessitatibus non quasi ut eius, sed quam. Totam fugit quasi, ipsa esse blanditiis non? Beatae consectetur cumque ex, odit voluptatibus voluptatum modi eos hic quas vel explicabo praesentium repellendus et quisquam, eaque reiciendis placeat veritatis enim, non adipisci error molestias a. Perspiciatis, pariatur. Voluptatum reprehenderit officiis labore fugiat eius totam nesciunt, quis praesentium maxime at nostrum rerum molestiae porro quas non inventore fugit libero optio, beatae similique provident molestias esse. Aperiam repudiandae iure culpa ipsum doloremque corporis molestiae maxime tempora optio!</p>
+    <table> <!--o comando para  fazer coisas dentro das outras foi: (tr>th*5)+(tr>td*5)*4k -->
+      <caption> Meus contatos </caption>
+      <tr>
+        <th>País</th>
+        <th>Nome completo</th>
+        <th>Telefone</th>
+        <th>Cidade</th>
+        <th>Estado</th>
+        <th>Catagoria</th>
+      </tr>
+      <tr>
+        <td rowspan="4"> Brasil </td>
+        <td>Pedro Vitor</td>
+        <td>31983495800</td>
+        <td>Ibirité</td>
+        <td>MG</td>
+        <td>Amigos</td>
+      </tr>
+      <tr>
+        <td>Pedro Henrique</td>
+        <td>31-98765678</td>
+        <td>Ibirité</td>
+        <td>MG</td>
+        <td>Amigos</td>
+      </tr>
+      <tr>
+        <td>Julia Fernanda</td>
+        <td>31-98766789</td>
+        <td>BH</td>
+        <td>MG</td>
+        <td>Inimiga</td>
+      </tr>
+      <tr>
+        <td>Nathanael</td>
+        <td>31987676722</td>
+        <td>Mario campos</td>
+        <td>MG</td>
+        <td>Inimigo</td>
+      </tr>
+
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur <strong> adipisicing elit. Porro, quos est beatae </strong> fugiat
+      consectetur laudantium hic doloremque. Blanditiis aliquam voluptatum quas a sapiente quae nihil quo sequi quasi
+      porro! Itaque illum veniam esse vel sequi fugiat? Soluta aperiam nemo asperiores vitae rem? Ab neque, doloremque
+      cumque minima quaerat ipsum possimus reiciendis assumenda asperiores dolorum quas, ut, labore qui tempore totam
+      blanditiis numquam voluptatem nesciunt ipsam consectetur ipsa aspernatur mollitia velit voluptate. Nulla
+      voluptatum mollitia, quasi rerum animi saepe veritatis amet. Cupiditate deserunt fugiat perferendis cum minima
+      repellendus sapiente, molestiae, neque dolorem, et id vero ducimus dolor dicta. Delectus excepturi qui earum eos
+      eligendi maxime ipsum nostrum doloremque minus beatae commodi laboriosam perferendis voluptatem recusandae nulla
+      quidem illum, nemo ad necessitatibus non quasi ut eius, sed quam. Totam fugit quasi, ipsa esse blanditiis non?
+      Beatae consectetur cumque ex, odit voluptatibus voluptatum modi eos hic quas vel explicabo praesentium repellendus
+      et quisquam, eaque reiciendis placeat veritatis enim, non adipisci error molestias a. Perspiciatis, pariatur.
+      Voluptatum reprehenderit officiis labore fugiat eius totam nesciunt, quis praesentium maxime at nostrum rerum
+      molestiae porro quas non inventore fugit libero optio, beatae similique provident molestias esse. Aperiam
+      repudiandae iure culpa ipsum doloremque corporis molestiae maxime tempora optio!</p>
 
     <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, exercitationem laudantium officia blanditiis velit autem ut a! Cum, ipsum maxime numquam nihil illo quas incidunt fugiat eaque aut ad facilis atque voluptatibus tempore facere culpa nisi consectetur iste nemo explicabo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, exercitationem laudantium officia blanditiis
+      velit autem ut a! Cum, ipsum maxime numquam nihil illo quas incidunt fugiat eaque aut ad facilis atque
+      voluptatibus tempore facere culpa nisi consectetur iste nemo explicabo.</p>
     <h3>Lorem ipsum dolor sit amet.</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde atque ex quibusdam repellendus dolor natus inventore suscipit perspiciatis aspernatur id sint cum quaerat similique amet velit harum aliquid maiores, nobis expedita cupiditate? Beatae ipsa, minus commodi blanditiis sunt impedit unde repellendus nesciunt explicabo earum culpa!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde atque ex quibusdam repellendus dolor natus
+      inventore suscipit perspiciatis aspernatur id sint cum quaerat similique amet velit harum aliquid maiores, nobis
+      expedita cupiditate? Beatae ipsa, minus commodi blanditiis sunt impedit unde repellendus nesciunt explicabo earum
+      culpa!</p>
 
-    <h1> Minha primeira página em html </h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+
+  </div>
+  <div id="menu-contexto">
+    <ul>
+      <li>Pesquisa</li>
+      <li>Categorias</li>
+      <li>Histórico</li>
+    </ul>
 
 
+  </div>
+  <div id="rodape">
+
+    <p>Copyright (2025) - Pedro Machado </p>
 
 
+  </div>
 
 
 
