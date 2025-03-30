@@ -1,0 +1,27 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+.destaque { 
+    display: block;
+    width: 100%;
+} 
+
+div { 
+    display: inline-block;
+    vertical-align: top;
+    background-color: gray;
+    width: calc(33% - 16px);   /*Esse comando vai deixar as divs cada com 33% da página, e vai deixar cada margem com 8px de cada lado, somando tudo 16*/
+    margin: 8px;  
+    border: 3px solid #777;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+div p img { 
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
