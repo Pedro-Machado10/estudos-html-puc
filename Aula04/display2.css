@@ -1,0 +1,27 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://picsum.photos/id/38/400/300);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+.destaque { 
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+}
+
+div { 
+background-color: white;
+width: 70%;
+margin: 15px auto;
+opacity: 80% ;
+clear: both;
+overflow: auto;
+padding: 8px;
+}
+
+.imagem { 
+    float: left;
+    margin: 0px 8px 8px 8px ;
+}
