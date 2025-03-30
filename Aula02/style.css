@@ -1,4 +1,32 @@
-p { 
+p,
+ul {
     font-family: Arial, Helvetica, sans-serif;
     background-color: yellow;
+}
+
+li.active {
+    color: red;
+
+}
+
+li.active+li {
+    /*Elementos que receberem esse +, siginifica que o próximno elemento vai receber essa propriedade., se vc usar o ~ será os próximos. */
+    color: blue;
+
+}
+
+
+menu>li {
+
+    font-size: small;
+}
+
+ul>li {
+
+    color: green;
+}
+
+main p {
+
+    color: blue;
 }
