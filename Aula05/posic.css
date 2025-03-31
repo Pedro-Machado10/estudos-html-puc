@@ -1,0 +1,50 @@
+
+section { 
+    background-color:  lightgray; 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+div { 
+border: 1px solid;
+height: 250px;
+border-radius: 15px;
+margin: 20px ;
+padding: 20px;
+box-sizing: border-box;
+
+}
+
+.d1 { 
+    background-color: moccasin;
+}
+
+        .d1a { 
+            background-color: yellow;
+            position: fixed;
+            z-index: 1;
+            right: 0px;
+            width: 200px;
+            overflow: auto;
+        }
+
+        .d1b { 
+            background-color: white;
+            height: 70px;
+            z-index: -1;
+
+        }
+
+.d2 { 
+    background-color: lightskyblue;
+}
+
+.d3 { 
+    background-color: lightgreen;
+}
+.d4 { 
+    background-color: lightsalmon;
+}
